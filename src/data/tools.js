@@ -1,0 +1,133 @@
+export const aiTools = [
+  {
+    name: "ChatGPT",
+    url: "https://chatgpt.com",
+    tag: "AI",
+    descZh: "对话式写作辅助、摘要整理、翻译润色。",
+    descKo: "대화형 글쓰기 보조, 초록 정리, 번역 및 윤문.",
+  },
+  {
+    name: "Gemini",
+    url: "https://gemini.google.com",
+    tag: "AI",
+    descZh: "适合网页检索、多模态阅读与资料整合。",
+    descKo: "웹 검색, 멀티모달 읽기, 자료 통합에 적합.",
+  },
+  {
+    name: "DeepSeek",
+    url: "https://www.deepseek.com",
+    tag: "AI",
+    descZh: "适合中文分析、写作辅助与代码处理。",
+    descKo: "중국어 분석, 글쓰기 보조, 코드 처리에 유용.",
+  },
+  {
+    name: "Kimi",
+    url: "https://kimi.moonshot.cn",
+    tag: "AI",
+    descZh: "长文本总结、论文内容归纳与问答。",
+    descKo: "장문 요약, 논문 내용 정리 및 질의응답.",
+  },
+  {
+    name: "Kimi PPT",
+    url: "https://kimi.moonshot.cn",
+    tag: "AI",
+    descZh: "适合快速生成 발표/PPT 大纲。",
+    descKo: "발표 자료와 PPT 개요를 빠르게 만들 때 사용.",
+  },
+];
+
+export const resourceTools = [
+  {
+    name: "한국고전종합DB",
+    url: "https://db.itkc.or.kr/",
+    tag: "KR",
+    descZh: "韩国古典文献原文、译注与检索平台。",
+    descKo: "한국 고전문헌 원문, 번역, 주석 검색 플랫폼.",
+  },
+  {
+    name: "KISS",
+    url: "https://kiss.kstudy.com/",
+    tag: "KR",
+    descZh: "韩国学术期刊全文数据库。",
+    descKo: "한국 학술지 원문 데이터베이스.",
+  },
+  {
+    name: "DBpia",
+    url: "https://www.dbpia.co.kr/",
+    tag: "KR",
+    descZh: "韩国论文、学会刊物与引用常用平台。",
+    descKo: "한국 논문, 학회지, 인용 검색에 자주 쓰는 플랫폼.",
+  },
+  {
+    name: "RISS",
+    url: "https://www.riss.kr/",
+    tag: "KR",
+    descZh: "韩国学位论文、馆藏与联合检索入口。",
+    descKo: "학위논문, 소장자료, 통합검색 입구.",
+  },
+  {
+    name: "Naver Academic",
+    url: "https://academic.naver.com/",
+    tag: "KR",
+    descZh: "适合做韩语论文与作者的快速初筛。",
+    descKo: "한국어 논문과 저자 검색의 빠른 1차 탐색용.",
+  },
+  {
+    name: "KCI",
+    url: "https://www.kci.go.kr/",
+    tag: "KR",
+    descZh: "韩国核心论文检索、引文与作者信息平台。",
+    descKo: "한국 핵심 논문 검색, 인용, 저자 정보 플랫폼.",
+  },
+  {
+    name: "中国国家图书馆",
+    url: "https://www.nlc.cn/web/index.shtml",
+    tag: "CN",
+    descZh: "中国国家级馆藏、古籍与数字资源入口。",
+    descKo: "중국 국가급 소장자료와 고적, 디지털 자원 입구.",
+  },
+  {
+    name: "中国哲学书电子化计划",
+    url: "https://ctext.org/zh",
+    tag: "CN",
+    descZh: "中国古典文本检索、比对与引用常用站。",
+    descKo: "중국 고전 텍스트 검색, 대조, 인용에 유용.",
+  },
+  {
+    name: "国家哲学社会科学文献中心",
+    url: "https://www.ncpssd.cn/index",
+    tag: "CN",
+    descZh: "哲学社会科学期刊、论文与学术资源平台。",
+    descKo: "철학사회과학 논문, 학술지, 자료 플랫폼.",
+  },
+  {
+    name: "岭南大学图书馆",
+    url: "https://libs.yu.ac.kr/",
+    tag: "KR",
+    descZh: "校内数据库、馆藏与原文获取入口。",
+    descKo: "교내 DB, 소장자료, 원문 확보 입구.",
+  },
+  {
+    name: "中国知网",
+    url: "https://www.cnki.net/",
+    tag: "CN",
+    descZh: "中国论文、学位论文与期刊检索核心平台。",
+    descKo: "중국 논문, 학위논문, 학술지 검색 핵심 플랫폼.",
+  },
+  {
+    name: "维普网",
+    url: "https://www.cqvip.com/",
+    tag: "CN",
+    descZh: "中国期刊与参考文献检索平台。",
+    descKo: "중국 학술지 및 참고문헌 검색 플랫폼.",
+  },
+  {
+    name: "Z-Library",
+    url: "https://z-library.sk/",
+    tag: "Global",
+    descZh: "电子书检索与阅读站。",
+    descKo: "전자책 검색 및 열람 사이트.",
+  },
+];
+
+export const tools = [...aiTools, ...resourceTools];
